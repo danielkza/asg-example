@@ -5,7 +5,7 @@ class AsgUpgradeStrategy(UpgradeStrategy):
     def __init__(self) -> None:
         self.upgrading = set()
 
-    def enumerate_asg(self) -> List[str]:
+    def enumerate_asgs(self) -> List[str]:
         return ['hello', 'world']
 
     def start_upgrade(self, asg_id: str) -> bool:
